@@ -163,6 +163,13 @@ body {
     font-size: 0.95rem;
     line-height: 1.6;
     color: var(--on-surface-variant);
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.intro-card p {
+    user-select: text;
+    -webkit-user-select: text;
 }
 
 /* Socials Grid and Items */
@@ -204,6 +211,8 @@ body {
     border-radius: 20px;
     text-decoration: none;
     transition: background-color 0.2s ease, border-color 0.2s ease;
+    user-select: none;
+    -webkit-user-select: none;
 }
 
 .social-item:hover {
