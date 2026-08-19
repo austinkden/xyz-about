@@ -2,6 +2,11 @@
 <html lang="en">
 
 <head>
+    <script>
+        if (window.location.hostname === 'astrong.xyz' || window.location.hostname === 'www.astrong.xyz') {
+            window.location.replace('https://about.astrong.xyz' + window.location.pathname.replace(/^\/about\/?/, '/') + window.location.search + window.location.hash);
+        }
+    </script>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZY51JBLESQ"></script>
     <script>
@@ -26,7 +31,7 @@
     <meta property="og:title" content="Austin Strong - About">
     <meta property="og:description" content="About me and my social profiles.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://astrong.xyz/about/">
+    <meta property="og:url" content="https://about.astrong.xyz/">
     <meta property="og:image" content="https://astrong.xyz/assets/images/pfp-nine-sided-cookie.png">
     <meta property="og:image:alt" content="Austin Strong Profile">
 
